@@ -1,0 +1,11 @@
+{
+  "entity": "WeatherReading",
+  "fields": [
+    { "name": "city", "type": "text", "required": true },
+    { "name": "temperatureC", "type": "decimal", "required": true },
+    { "name": "humidityPercent", "type": "wholenumber", "required": true },
+    { "name": "condition", "type": "text", "required": false },
+    { "name": "observedAt", "type": "datetime", "required": true },
+    { "name": "isDaylight", "type": "yesno", "required": false }
+  ]
+}
